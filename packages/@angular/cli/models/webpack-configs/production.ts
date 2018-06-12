@@ -168,7 +168,6 @@ export function getProdConfig(wco: WebpackConfigOptions) {
           mangle: {
             safari10: true,
           },
-          compress: uglifyCompressOptions,
           output: {
             ascii_only: true,
             comments: false,
